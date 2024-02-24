@@ -30,7 +30,8 @@ public class Main2 {
             }
 
             Product x = CalculationService.max(list);
-            System.out.println("Most expensive:");
+            System.out.println("Most expensiveclear" +
+                    ":");
             System.out.println(x);
         } catch (IOException e) {
             System.out.println("Error: " + e.getMessage());
